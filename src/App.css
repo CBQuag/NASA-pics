@@ -94,8 +94,10 @@ body {
   display: flex;
 
   justify-content: center;
+  margin-bottom: 20px;
 }
 .like-content{
+  margin-right: 8px;
   background-color: white;
   padding:3px 5px;
   border-radius: 13px;

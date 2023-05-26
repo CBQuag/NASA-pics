@@ -5,7 +5,8 @@ const ImageBox = (props) => {
 
     const [likeStatus, setLiked] = useState('');
     const [likeAnim, setAnim] = useState('');
-    const [likeText, setLikeText]=useState('Like')
+    const [likeText, setLikeText] = useState('Like')
+
 
     let likeJson;
     likeJson = JSON.parse(localStorage.getItem('likeList'));

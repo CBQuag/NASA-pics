@@ -5,8 +5,6 @@ const ImageBoxes = () => {
 
     const url='https://picsum.photos/v2/list'
 
-
-
     const [picData, setData] = useState([]);
     
     useEffect(()=>{
@@ -19,7 +17,7 @@ const ImageBoxes = () => {
             .then(res => res.ok ? res.json() : null)
             .then(data => {
             console.log(data)
-            setData(data)
+                setData(data)
         })
     }
 
